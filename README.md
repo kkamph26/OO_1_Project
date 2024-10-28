@@ -6,6 +6,7 @@ Derudover er der en lokationsfunktion, hvor jeg har fået kortet til at vise min
 
 Jeg er klar over, at rating-systemet tager gennemsnittet af alt fra databasen (tak for feedback), og det er en af de ting, der skal arbejdes videre på. Som I kan se, er appen nu udstyret med et par features, som endnu ikke hænger sammen, men det er næste skridt.
 
+Der er screenshot af firbase databasen i rapporten, hvor man kan se profilerne fra booking systemet. 
 
 
 
