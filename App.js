@@ -1,10 +1,12 @@
-// import { StatusBar } from "expo-status-bar";
+import { StatusBar } from "expo-status-bar";
 import { StyleSheet } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import HomeScreen from "./screens/HomeScreen";
 import ProfileScreen from "./screens/ProfileScreen";
+import BookingScreen from "./screens/BookingScreen"; // Import BookingScreen
+import LocationScreen from "./screens/LocationScreen"; // Import LocationScreen
 
 import { initializeApp, getApps } from "firebase/app";
 
@@ -39,6 +41,16 @@ export default function App() {
           name="Profile"
           component={ProfileScreen}
           options={{ tabBarIcon: () => <Ionicons name="person" size={20} /> }}
+        />
+        <Tab.Screen
+          name="Booking"
+          component={BookingScreen}
+          options={{ tabBarIcon: () => <Ionicons name="calendar" size={20} /> }}
+        />
+        <Tab.Screen
+          name="Location"
+          component={LocationScreen}
+          options={{ tabBarIcon: () => <Ionicons name="map" size={20} /> }}
         />
       </Tab.Navigator>
     </NavigationContainer>

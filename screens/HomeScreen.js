@@ -48,7 +48,7 @@ export default function HomeScreen() {
             <Text style={styles.ratingButtonText}>{`${star} Stars`}</Text>
           </TouchableOpacity>
         ))}
-        {/* herfra og ned til linje 69 er udviklet ved hjælp ad Bing CoPilot d. 24/10-2024 */}
+        {/* herfra og ned til linje 69 er udviklet ved hjælp ad Bing CoPilot d. 24/10-2024, vær opmærksom på den tager gennemsnitet af alle ratings i hele databasen og ikke kun fra en profil som er tiltænkt, men det bliver også kort berøt i readme filen*/}
       </View>
       {rating && (
         <Text style={styles.resultText}>
